@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f8f8;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #a60808;
+    color: white;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .logo img {
+    width: 45px;
+}
+
+.navbar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    font-weight: normal;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background: #e6c200;
+    color: black;
+}
+
+/* TITULO */
+.titulo {
+    text-align: center;
+    margin: 30px 0 20px;
+    font-size: 30px;
+    color: #b30000;
+}
+
+/* FORMULARIO */
+.contenedor-form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    background: white;
+    width: 80%;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.archivo {
+    padding: 8px;
+    background: #f5f5f5;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    background: #950b0b;
+    color: white;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #7a0000;
+}
+
+/* FOOTER */
+.footer {
+    background: #bd0c0c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.social img {
+    width: 22px;
+    margin: 0 5px;
+}
+nav a {
+    margin-left: 20px;
+    padding: 8px 15px;
+    background: #7a0000;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}

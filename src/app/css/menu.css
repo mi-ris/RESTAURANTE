@@ -1,0 +1,132 @@
+/* RESETEO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #fafafa;
+    color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #a60808;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 55px;
+}
+
+nav a {
+    margin-left: 20px;
+    padding: 8px 18px;
+    background: #7a0000;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    background: #e6c200;
+    color: black;
+}
+
+/* TÍTULO */
+.title-section {
+    text-align: center;
+    padding: 50px 20px 20px;
+}
+
+.title-section h2 {
+    font-size: 42px;
+    color: #a60808;
+    font-family: "Playfair Display", serif;
+}
+
+.title-section p {
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.underline {
+    width: 90px;
+    height: 4px;
+    background: #e6c200;
+    border-radius: 2px;
+    margin: 15px auto 0;
+}
+
+/* GRID */
+.menu-grid {
+    padding: 40px 40px 80px;
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+/* TARJETAS */
+.menu-card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.25);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* CONTENIDO */
+.menu-card .content {
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-card h3 {
+    font-size: 22px;
+    color: #a60808;
+    margin-bottom: 10px;
+}
+
+.menu-card p {
+    font-size: 15px;
+    color: #555;
+}
+
+/* FOOTER */
+footer {
+    background: #a60808;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social img {
+    width: 25px;
+    margin-left: 8px;
+}
